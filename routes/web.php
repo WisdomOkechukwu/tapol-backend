@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    dd('api yeah');
     return redirect('https://tapolgroup.com');
 });
